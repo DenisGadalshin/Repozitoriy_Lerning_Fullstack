@@ -14,7 +14,7 @@ echo $name;
 echo "<br>";
 echo $age;
 
-$name - 'Ivan';
+$name = 'Ivan';
 
 echo '<br>';
 echo $name;
