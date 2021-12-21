@@ -64,8 +64,9 @@
                             <td>{$user['name']}</td>
                             <td>{$city}</td>
                             <td class='text-center'>
-                                <form metod='post' action='del_user.php'>
-                                    <button class='btn btn-danger'>x</<button>
+                                <form metod='post' action='actions/del_user.php'>
+                                    <imput name='id' value='{$user['id']}'>
+                                    <button type='submit' class='btn btn-danger'>x</<button>
                                 </form>
                             </td>
                         </tr>
